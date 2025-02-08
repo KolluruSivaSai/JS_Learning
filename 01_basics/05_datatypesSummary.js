@@ -35,3 +35,25 @@ const myFun=function(){
 https://262.ecma-international.org/5.1/#sec-11.4.3
 */
 //In order to master JS--->master objects and browser events
+
+
+/**************************************Memory********************************/
+//Stack---->Primitive---->Copy
+//Heap----->NonPrimitive------>Reference
+let myYoutubename = "sivaecesai.com"
+let anothername = myYoutubename
+anothername = "jingping"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne = {
+    email: "siva2gmail.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email='siva@google.com'
+
+console.log(userOne.email)
+
+console.log(userTwo.email)
