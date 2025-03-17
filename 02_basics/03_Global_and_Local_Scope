@@ -1,0 +1,12 @@
+let a=10
+const b=20
+var c=30
+
+if(true){
+    var c= 1000;
+}
+console.log(a);//10
+console.log(b);//20
+console.log(c);//1000
+
+
